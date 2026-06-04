@@ -12,6 +12,10 @@ const faqs: FaqItem[] = [
     answer: "Durasi pengerjaan bergantung pada kompleksitas fitur proyek Anda. Paket Landing Page selesai dalam 3-5 hari kerja. Paket Company Profile membutuhkan waktu sekitar 7-10 hari kerja. Sementara aplikasi kustom seperti Aplikasi Kasir (POS) atau Toko Online berkisar antara 14-21 hari kerja, disesuaikan dengan ketersediaan data/aset Anda.",
   },
   {
+    question: "Apakah biaya pembuatan sudah termasuk sewa hosting dan domain?",
+    answer: "Belum termasuk. Biaya sewa hosting dan pembelian domain dibayarkan langsung oleh Anda (klien) sebagai pemilik aset. Namun, saya akan membantu seluruh proses pemilihan, pendaftaran, hingga konfigurasi setup server dan domain tersebut sampai website atau aplikasi siap diakses secara gratis.",
+  },
+  {
     question: "Bagaimana cara melakukan pembayaran?",
     answer: "Sistem pembayaran menggunakan Down Payment (DP) sebesar 50% sebagai tanda jadi pengerjaan. Setelah proyek selesai dirancang (di server uji coba atau demo lokal) dan disetujui oleh Anda, pelunasan sisa 50% dibayarkan, kemudian website atau aplikasi akan dideploy secara resmi ke server/domain utama Anda.",
   },

@@ -22,7 +22,7 @@ export const packages: Package[] = [
       "1 Halaman Utama Kustom",
       "Desain Responsive & Mobile-friendly",
       "Integrasi Formulir & Tombol WhatsApp",
-      "Hosting & Domain (.com/.id) 1 Tahun",
+      "Bantu Setup Domain & Hosting (Gratis)",
       "Sertifikat SSL (HTTPS) Gratis",
       "Garansi Error & Bugs 1 Bulan",
       "Revisi Desain Maksimal 2x",
@@ -41,7 +41,7 @@ export const packages: Package[] = [
       "Desain Premium Modern & Interaktif",
       "Panel Admin Manajemen Konten (CMS)",
       "Galeri Proyek / Daftar Layanan",
-      "Hosting & Domain (.com/.id) 1 Tahun",
+      "Bantu Setup Domain & Hosting (Gratis)",
       "Integrasi WhatsApp & Peta Lokasi",
       "SEO Setup Dasar & Google Index",
       "Garansi Error & Bugs 3 Bulan",
@@ -52,7 +52,7 @@ export const packages: Package[] = [
   },
   {
     name: "E-Commerce (Toko Online)",
-    price: "Rp 2.500.000",
+    price: "Rp 1.800.000",
     originalPrice: "Rp 2.800.000",
     description: "Sempurna untuk brand ritel, butik online, dan UKM yang ingin jualan otomatis.",
     popular: false,
@@ -62,7 +62,7 @@ export const packages: Package[] = [
       "Panel Admin Manajemen Produk & Order",
       "Kalkulator Ongkos Kirim Otomatis",
       "Integrasi WhatsApp / Gateway Pembayaran",
-      "Hosting & Domain (.com/.id) 1 Tahun",
+      "Bantu Setup Domain & Hosting (Gratis)",
       "SEO Setup & Kecepatan Muat Ekstrim",
       "Garansi Error & Bugs 3 Bulan",
       "Revisi Desain Maksimal 5x",
@@ -72,7 +72,8 @@ export const packages: Package[] = [
   },
   {
     name: "App Kasir & Kustom",
-    price: "Mulai Rp 3.500.000",
+    price: "Rp 2.500.000",
+    originalPrice: "Rp 3.000.000",
     description: "Aplikasi kasir (POS), CRM, inventory, atau sistem web kustom sesuai kebutuhan alur bisnis Anda.",
     popular: false,
     features: [
@@ -80,7 +81,7 @@ export const packages: Package[] = [
       "Database & Alur Sistem Terintegrasi",
       "Transaksi Penjualan & Cetak Struk (Untuk POS)",
       "Sistem Hak Akses & Login User",
-      "Server VPS Setup & Cloud Deployment",
+      "Bantu Setup VPS/Hosting Cloud (Gratis)",
       "Dukungan Teknis & Maintenance 6 Bulan",
       "Revisi Fleksibel Selama Pengerjaan",
     ],
@@ -115,7 +116,7 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
             </h2>
             <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
               Pilihan harga transparan sesuai kebutuhan proyek Anda. Tanpa biaya tersembunyi.
-              Khusus untuk website sudah termasuk gratis hosting dan domain tahun pertama.
+              Catatan: Harga di bawah belum termasuk biaya sewa hosting dan domain (bisa dibantu setup secara gratis).
             </p>
           </div>
 
