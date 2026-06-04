@@ -34,6 +34,7 @@ export const Footer = () => {
               <a href="#home" className="hover:text-primary transition-colors">Home</a>
               <a href="#services" className="hover:text-primary transition-colors">Layanan Saya</a>
               <a href="#features" className="hover:text-primary transition-colors">Kelebihan</a>
+              <a href="#portfolio" className="hover:text-primary transition-colors">Portofolio</a>
               <a href="#pricing" className="hover:text-primary transition-colors">Paket Harga</a>
               <a href="#faq" className="hover:text-primary transition-colors">Pertanyaan Umum (FAQ)</a>
             </div>

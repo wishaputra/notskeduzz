@@ -72,7 +72,7 @@ Terima kasih.`;
             {/* Left Info Column */}
             <div className="lg:col-span-5 space-y-6">
               <div>
-                <p className="font-mono text-primary text-sm mb-3">04. Hubungi Saya</p>
+                <p className="font-mono text-primary text-sm mb-3">05. Hubungi Saya</p>
                 <h2 className="text-3xl md:text-4xl font-extrabold text-foreground tracking-tight">
                   Konsultasikan Proyek Anda
                 </h2>

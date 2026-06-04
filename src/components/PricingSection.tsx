@@ -110,7 +110,7 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 md:mb-24">
-            <p className="font-mono text-primary text-sm mb-3">03. Paket Harga</p>
+            <p className="font-mono text-primary text-sm mb-3">04. Paket Harga</p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-foreground tracking-tight">
               Investasi Website & Aplikasi Anda
             </h2>

@@ -5,6 +5,7 @@ const navLinks = [
   { name: "Home", href: "#home" },
   { name: "Layanan", href: "#services" },
   { name: "Kelebihan", href: "#features" },
+  { name: "Portofolio", href: "#portfolio" },
   { name: "Paket Harga", href: "#pricing" },
   { name: "FAQ", href: "#faq" },
 ];

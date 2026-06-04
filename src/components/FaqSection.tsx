@@ -46,7 +46,7 @@ export const FaqSection = () => {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <p className="font-mono text-primary text-sm mb-3">05. FAQ</p>
+            <p className="font-mono text-primary text-sm mb-3">06. FAQ</p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-foreground tracking-tight">
               Pertanyaan Umum
             </h2>
