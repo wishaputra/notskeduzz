@@ -21,7 +21,7 @@ export const Footer = () => {
               <span>{"<NotSkeduzz />"}</span>
             </a>
             <p className="text-muted-foreground text-xs md:text-sm leading-relaxed max-w-sm">
-              Penyedia jasa pembuatan website berkualitas premium. Kami fokus menghadirkan platform digital berkinerja tinggi, aman, dan memikat untuk kesuksesan bisnis Anda.
+              Jasa pembuatan website & aplikasi kustom berkualitas premium. Berfokus menghadirkan platform digital berkinerja tinggi, aman, dan memikat untuk kesuksesan bisnis Anda.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export const Footer = () => {
             </h4>
             <div className="flex flex-col gap-2.5 text-xs text-muted-foreground">
               <a href="#home" className="hover:text-primary transition-colors">Home</a>
-              <a href="#services" className="hover:text-primary transition-colors">Layanan Kami</a>
+              <a href="#services" className="hover:text-primary transition-colors">Layanan Saya</a>
               <a href="#features" className="hover:text-primary transition-colors">Kelebihan</a>
               <a href="#pricing" className="hover:text-primary transition-colors">Paket Harga</a>
               <a href="#faq" className="hover:text-primary transition-colors">Pertanyaan Umum (FAQ)</a>

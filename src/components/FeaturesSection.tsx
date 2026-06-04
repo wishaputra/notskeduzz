@@ -4,22 +4,22 @@ const features = [
   {
     icon: Zap,
     title: "Ultra Fast Performance",
-    description: "Kecepatan muat halaman di bawah 2 detik. Kami menggunakan framework berkinerja tinggi dan aset teroptimasi untuk performa Google PageSpeed sempurna.",
+    description: "Kecepatan muat halaman di bawah 2 detik. Menggunakan framework berkinerja tinggi dan aset teroptimasi untuk performa Google PageSpeed sempurna.",
   },
   {
     icon: Search,
     title: "Google SEO Friendly",
-    description: "Selesai dibuat langsung siap diindeks Google. Kami melengkapi website dengan tag meta dinamis, struktur heading semantik, dan sitemap otomatis.",
+    description: "Selesai dibuat langsung siap diindeks Google. Website dilengkapi dengan tag meta dinamis, struktur heading semantik, dan sitemap otomatis.",
   },
   {
     icon: Smartphone,
     title: "100% Mobile Responsive",
-    description: "Tampilan website beradaptasi sempurna di layar iPhone, Android, tablet, hingga monitor PC 4K. Navigasi mobile-friendly yang sangat nyaman.",
+    description: "Tampilan website dan aplikasi beradaptasi sempurna di layar iPhone, Android, tablet, hingga monitor PC 4K. Navigasi mobile-friendly yang sangat nyaman.",
   },
   {
     icon: Palette,
     title: "Desain Premium Kustom",
-    description: "Tanpa template murahan atau berat. Kami mendesain UI dari nol untuk memastikan website merefleksikan karakter brand bisnis Anda secara elegan.",
+    description: "Tanpa template murahan atau berat. UI didesain dari nol untuk memastikan website merefleksikan karakter brand bisnis Anda secara elegan.",
   },
   {
     icon: Lock,
@@ -29,7 +29,7 @@ const features = [
   {
     icon: HeartHandshake,
     title: "Support & Garansi",
-    description: "Garansi perbaikan bug gratis selama 3 bulan pertama setelah peluncuran, ditambah panduan lengkap cara mengelola isi website mandiri.",
+    description: "Garansi perbaikan bug gratis selama 3 bulan pertama setelah peluncuran, ditambah panduan lengkap cara mengelola konten secara mandiri.",
   },
 ];
 
@@ -43,12 +43,12 @@ export const FeaturesSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 md:mb-24">
-            <p className="font-mono text-primary text-sm mb-3">02. Kelebihan Kami</p>
+            <p className="font-mono text-primary text-sm mb-3">02. Kelebihan Saya</p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-foreground tracking-tight">
-              Mengapa Memilih Jasa Kami?
+              Mengapa Memilih Jasa Saya?
             </h2>
             <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
-              Kami tidak sekadar membuat website asal jadi. Kami fokus pada kualitas kode, kecepatan akses, dan hasil konversi riil untuk bisnis Anda.
+              Saya tidak sekadar membuat website atau aplikasi asal jadi. Saya fokus pada kualitas performa kode, kecepatan akses, dan hasil konversi riil untuk bisnis Anda.
             </p>
           </div>
 

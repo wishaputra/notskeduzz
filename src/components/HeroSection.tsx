@@ -18,18 +18,18 @@ export const HeroSection = () => {
           {/* Greeting / Sub-headline */}
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs md:text-sm font-mono mb-6 animate-fade-in-down opacity-0" style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}>
             <Sparkles size={14} className="animate-spin-slow" />
-            <span>Premium Web Development Service</span>
+            <span>Jasa Web & Aplikasi Kustom</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 tracking-tight animate-fade-in-up opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
             <span className="text-foreground">Jasa Pembuatan</span>{" "}
-            <span className="text-gradient">Website Profesional</span>
+            <span className="text-gradient">Website & Aplikasi</span>
           </h1>
 
           {/* Description */}
           <p className="text-muted-foreground text-base md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in-up opacity-0" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
-            Kami membangun website premium berkecepatan tinggi, ramah SEO, dan berdesain modern untuk meningkatkan kredibilitas bisnis Anda dan mendongkrak penjualan.
+            Saya membangun website dan aplikasi kustom (seperti aplikasi kasir, toko online, profil bisnis) berkinerja tinggi, responsif, dan aman untuk mendongkrak penjualan serta efisiensi bisnis Anda.
           </p>
 
           {/* CTA Buttons */}
@@ -38,13 +38,13 @@ export const HeroSection = () => {
               href="#pricing"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 hover:scale-[1.02] transition-all duration-300 glow-primary"
             >
-              Pilih Paket Website
+              Pilih Paket Jasa
             </a>
             <a
               href="#services"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-border bg-secondary/30 text-foreground hover:bg-secondary/60 hover:border-primary/50 transition-all duration-300 rounded-lg"
             >
-              Lihat Layanan Kami
+              Lihat Layanan Saya
             </a>
           </div>
 

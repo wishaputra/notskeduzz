@@ -1,4 +1,4 @@
-import { Layout, Building2, ShoppingBag, Cpu, ArrowUpRight } from "lucide-react";
+import { Layout, Building2, ShoppingBag, Cpu, ArrowUpRight, Receipt } from "lucide-react";
 
 const services = [
   {
@@ -20,9 +20,15 @@ const services = [
     features: ["Manajemen Produk", "Keranjang & Checkout", "Kalkulasi Ongkir Otomatis", "Sistem Pembayaran Aman"],
   },
   {
+    icon: Receipt,
+    title: "Aplikasi Kasir (POS) & Inventaris",
+    description: "Sistem aplikasi kasir digital untuk mencatat penjualan toko secara real-time, manajemen stok produk, cetak struk nota belanja, dan laporan keuangan harian UMKM.",
+    features: ["Pencatatan Transaksi", "Manajemen Stok Barang", "Cetak Struk & Nota", "Laporan Keuangan Otomatis"],
+  },
+  {
     icon: Cpu,
     title: "Custom Web Application",
-    description: "Sistem aplikasi web interaktif kustom seperti CRM, sistem inventaris, dashboard admin, portal internal, hingga website dengan logika bisnis yang kompleks.",
+    description: "Sistem aplikasi web interaktif kustom seperti CRM, sistem antrean, portal internal, dashboard admin kustom, hingga sistem dengan alur logika bisnis yang kompleks.",
     features: ["Database Terintegrasi", "Sistem Login & Hak Akses", "Panel Kontrol Admin Kustom", "Integrasi API Eksternal"],
   },
 ];
@@ -34,12 +40,12 @@ export const ServicesSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 md:mb-24">
-            <p className="font-mono text-primary text-sm mb-3">01. Layanan Kami</p>
+            <p className="font-mono text-primary text-sm mb-3">01. Layanan Saya</p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-foreground tracking-tight">
-              Jenis Website Yang Kami Buat
+              Jasa Website & Aplikasi Kustom
             </h2>
             <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
-              Setiap website dirancang secara khusus untuk memenuhi tujuan bisnis Anda, menggunakan teknologi web modern teratas.
+              Setiap website dan sistem aplikasi dirancang secara kustom untuk memenuhi tujuan bisnis Anda, menggunakan teknologi modern berkinerja tinggi.
             </p>
           </div>
 

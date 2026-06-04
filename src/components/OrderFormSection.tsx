@@ -36,13 +36,13 @@ export const OrderFormSection = ({
     setIsSubmitting(true);
 
     // Compile WhatsApp message
-    const message = `Halo Ka! Saya ingin berkonsultasi/memesan website:
+    const message = `Halo Ka! Saya ingin berkonsultasi/memesan website atau aplikasi:
 
 *Detail Pemesanan:*
 - Nama Lengkap: ${formData.name}
 - Nama Bisnis: ${formData.businessName || "-"}
 - Kontak HP/WA: ${formData.phone}
-- Pilihan Paket: *${selectedPackage}*
+- Pilihan Layanan/Paket: *${selectedPackage}*
 
 *Kebutuhan Tambahan / Catatan:*
 ${formData.details || "Tidak ada catatan tambahan."}
@@ -72,12 +72,12 @@ Terima kasih.`;
             {/* Left Info Column */}
             <div className="lg:col-span-5 space-y-6">
               <div>
-                <p className="font-mono text-primary text-sm mb-3">04. Hubungi Kami</p>
+                <p className="font-mono text-primary text-sm mb-3">04. Hubungi Saya</p>
                 <h2 className="text-3xl md:text-4xl font-extrabold text-foreground tracking-tight">
-                  Konsultasikan Proyek Website Anda
+                  Konsultasikan Proyek Anda
                 </h2>
                 <p className="text-muted-foreground mt-4 text-sm leading-relaxed">
-                  Isi formulir singkat di samping. Kami akan langsung mengarahkan Anda ke WhatsApp untuk berdiskusi lebih lanjut secara langsung dengan developer kami.
+                  Isi formulir singkat di samping. Saya akan langsung mengarahkan Anda ke WhatsApp untuk berdiskusi lebih lanjut.
                 </p>
               </div>
 
@@ -92,7 +92,7 @@ Terima kasih.`;
                   <div className="flex gap-2">
                     <ShieldCheck className="text-primary w-4 h-4 shrink-0 mt-0.5" />
                     <p>
-                      <strong>Tanpa Denda Revisi:</strong> Kami berkomitmen untuk menyesuaikan desain sesuai kuota revisi paket tanpa biaya siluman.
+                      <strong>Tanpa Denda Revisi:</strong> Berkomitmen untuk menyesuaikan desain sesuai kuota revisi paket tanpa biaya siluman.
                     </p>
                   </div>
                   <div className="flex gap-2">
@@ -104,7 +104,7 @@ Terima kasih.`;
                   <div className="flex gap-2">
                     <ShieldCheck className="text-primary w-4 h-4 shrink-0 mt-0.5" />
                     <p>
-                      <strong>Serah Terima Aset Penuh:</strong> Akun hosting, domain, dan kode sumber website diserahkan 100% milik Anda.
+                      <strong>Serah Terima Aset Penuh:</strong> Akun hosting, domain, dan kode sumber proyek diserahkan 100% milik Anda.
                     </p>
                   </div>
                 </div>
@@ -179,7 +179,7 @@ Terima kasih.`;
                     {/* Paket */}
                     <div>
                       <label htmlFor="package" className="block text-xs font-semibold text-muted-foreground mb-2 font-mono">
-                        PAKET WEBSITE *
+                        LAYANAN / PAKET *
                       </label>
                       <select
                         id="package"
@@ -205,7 +205,7 @@ Terima kasih.`;
                       id="details"
                       name="details"
                       rows={4}
-                      placeholder="Jelaskan kebutuhan website Anda (warna favorit, fitur khusus, referensi website lain dll.)..."
+                      placeholder="Jelaskan kebutuhan website atau aplikasi Anda (fitur kustom, alur sistem, referensi, dll.)..."
                       value={formData.details}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all font-sans resize-none"

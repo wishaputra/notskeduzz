@@ -8,24 +8,20 @@ interface FaqItem {
 
 const faqs: FaqItem[] = [
   {
-    question: "Berapa lama proses pengerjaan websitenya?",
-    answer: "Durasi pengerjaan bergantung pada paket pilihan Anda. Paket Landing Page selesai dalam 3-5 hari kerja. Paket Company Profile membutuhkan waktu sekitar 7-10 hari kerja. Sementara paket E-Commerce (Toko Online) membutuhkan waktu sekitar 14-21 hari kerja, disesuaikan dengan ketersediaan aset teks/gambar Anda.",
+    question: "Berapa lama proses pengerjaan website atau aplikasi?",
+    answer: "Durasi pengerjaan bergantung pada kompleksitas fitur proyek Anda. Paket Landing Page selesai dalam 3-5 hari kerja. Paket Company Profile membutuhkan waktu sekitar 7-10 hari kerja. Sementara aplikasi kustom seperti Aplikasi Kasir (POS) atau Toko Online berkisar antara 14-21 hari kerja, disesuaikan dengan ketersediaan data/aset Anda.",
   },
-  // {
-  //   question: "Apakah saya harus menyewa hosting dan membeli domain sendiri?",
-  //   answer: "Tidak perlu repot. Seluruh harga paket kami sudah termasuk pendaftaran nama domain pilihan Anda (.com, .id, atau .net) dan sewa cloud hosting berkecepatan tinggi secara gratis untuk 1 tahun pertama. Pada tahun kedua, Anda hanya perlu membayar biaya perpanjangan domain dan hosting tahunan yang terjangkau.",
-  // },
   {
     question: "Bagaimana cara melakukan pembayaran?",
-    answer: "Sistem pembayaran kami menggunakan Down Payment (DP) sebesar 50% sebagai tanda jadi pengerjaan. Setelah website selesai dirancang di server uji coba dan disetujui oleh Anda, Anda melakukan pelunasan sisa 50% sisa biaya, baru kemudian file website kami deploy secara resmi ke domain utama Anda.",
+    answer: "Sistem pembayaran menggunakan Down Payment (DP) sebesar 50% sebagai tanda jadi pengerjaan. Setelah proyek selesai dirancang (di server uji coba atau demo lokal) dan disetujui oleh Anda, pelunasan sisa 50% dibayarkan, kemudian website atau aplikasi akan dideploy secara resmi ke server/domain utama Anda.",
   },
   {
-    question: "Apakah saya bisa mengubah konten/gambar website secara mandiri setelah selesai?",
-    answer: "Sangat bisa. Untuk paket Company Profile dan E-Commerce, kami membangun website terintegrasi dengan CMS (Content Management System) yang mudah digunakan. Kami juga menyertakan panduan singkat (bisa berupa teks/video) agar Anda dapat mengubah teks, menambah postingan blog, atau meng-upload produk baru kapan saja.",
+    question: "Apakah saya bisa mengubah konten/gambar secara mandiri setelah selesai?",
+    answer: "Sangat bisa. Proyek website (seperti profil bisnis dan toko online) maupun aplikasi kasir dibangun terintegrasi dengan panel admin (CMS) yang mudah digunakan. Panduan singkat berupa teks atau video juga disertakan agar Anda dapat mengedit teks, mengelola transaksi, atau meng-upload produk secara mandiri kapan saja.",
   },
   {
-    question: "Apakah ada garansi jika website mengalami error?",
-    answer: "Ya, kami berkomitmen memberikan garansi bebas error (bug/broken link/tampilan rusak) selama 1 hingga 3 bulan penuh sejak website dirilis online (tergantung paket). Jika terjadi kendala sistem, kami akan memperbaikinya tanpa dipungut biaya sepeser pun.",
+    question: "Apakah ada garansi jika website atau aplikasi mengalami error?",
+    answer: "Ya, garansi bebas error (bug/broken link/tampilan rusak) diberikan selama 1 hingga 3 bulan penuh sejak website atau aplikasi dirilis online (tergantung paket). Jika terjadi kendala sistem, perbaikan dilakukan tanpa dipungut biaya sepeser pun.",
   },
   {
     question: "Apakah website buatan Anda ramah SEO?",
@@ -51,7 +47,7 @@ export const FaqSection = () => {
               Pertanyaan Umum
             </h2>
             <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
-              Menjawab rasa penasaran Anda seputar pengerjaan, pembayaran, dan kelayakan sistem kami.
+              Menjawab rasa penasaran Anda seputar pengerjaan, pembayaran, dan kelayakan sistem.
             </p>
           </div>
 

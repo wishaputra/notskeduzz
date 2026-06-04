@@ -71,17 +71,17 @@ export const packages: Package[] = [
     tag: "ecommerce",
   },
   {
-    name: "Custom Web Application",
+    name: "App Kasir & Kustom",
     price: "Mulai Rp 3.500.000",
-    description: "Solusi lengkap untuk sistem internal, CRM, dashboard admin kustom, atau ide aplikasi kustom.",
+    description: "Aplikasi kasir (POS), CRM, inventory, atau sistem web kustom sesuai kebutuhan alur bisnis Anda.",
     popular: false,
     features: [
-      "Desain UI/UX Penuh Sesuai Request",
-      "Database Relasional & API Integrasi",
-      "Sistem Autentikasi & Hak Akses User",
-      "Panel Kontrol Admin Super Kustom",
+      "Desain UI/UX Kustom Penuh",
+      "Database & Alur Sistem Terintegrasi",
+      "Transaksi Penjualan & Cetak Struk (Untuk POS)",
+      "Sistem Hak Akses & Login User",
       "Server VPS Setup & Cloud Deployment",
-      "Dukungan Teknis & Perbaikan 6 Bulan",
+      "Dukungan Teknis & Maintenance 6 Bulan",
       "Revisi Fleksibel Selama Pengerjaan",
     ],
     ctaText: "Konsultasi Kustom",
@@ -111,11 +111,11 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
           <div className="text-center mb-16 md:mb-24">
             <p className="font-mono text-primary text-sm mb-3">03. Paket Harga</p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-foreground tracking-tight">
-              Investasi Website Bisnis Anda
+              Investasi Website & Aplikasi Anda
             </h2>
             <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
-              Pilih paket harga transparan kami. Tanpa biaya tersembunyi.
-              Sudah termasuk gratis hosting dan domain tahun pertama.
+              Pilihan harga transparan sesuai kebutuhan proyek Anda. Tanpa biaya tersembunyi.
+              Khusus untuk website sudah termasuk gratis hosting dan domain tahun pertama.
             </p>
           </div>
 
