@@ -10,7 +10,7 @@ export const Footer = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 mb-12">
-          
+
           {/* Logo & Description */}
           <div className="md:col-span-5 space-y-4">
             <a
@@ -48,8 +48,8 @@ export const Footer = () => {
             <div className="space-y-3 text-xs text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail size={14} className="text-primary shrink-0" />
-                <a href="mailto:support@wishdev.online" className="hover:text-primary transition-colors">
-                  support@wishdev.online
+                <a href="mailto:wishaputramaulana@gmail.com" className="hover:text-primary transition-colors">
+                  wishaputramaulana@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
