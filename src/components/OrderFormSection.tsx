@@ -9,7 +9,7 @@ interface OrderFormSectionProps {
 
 // Target WhatsApp business number (e.g. +62 851-2345-6789).
 // The user can edit this number in their environment variables or directly in code.
-const WHATSAPP_NUMBER = "6282213220137";
+const WHATSAPP_NUMBER = "6285117279141";
 
 export const OrderFormSection = ({
   selectedPackage,
