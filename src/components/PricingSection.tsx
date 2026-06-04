@@ -116,7 +116,7 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
             </h2>
             <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
               Pilihan harga transparan sesuai kebutuhan proyek Anda. Tanpa biaya tersembunyi.
-              Catatan: Harga di bawah belum termasuk biaya sewa hosting dan domain (bisa dibantu setup secara gratis).
+              Catatan: Harga belum termasuk biaya hosting & domain. Ketentuan hosting fleksibel (bisa disewa mandiri oleh Anda atau difasilitasi lewat saya).
             </p>
           </div>
 

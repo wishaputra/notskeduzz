@@ -13,7 +13,7 @@ const faqs: FaqItem[] = [
   },
   {
     question: "Apakah biaya pembuatan sudah termasuk sewa hosting dan domain?",
-    answer: "Belum termasuk. Biaya sewa hosting dan pembelian domain dibayarkan langsung oleh Anda (klien) sebagai pemilik aset. Namun, saya akan membantu seluruh proses pemilihan, pendaftaran, hingga konfigurasi setup server dan domain tersebut sampai website atau aplikasi siap diakses secara gratis.",
+    answer: "Belum termasuk. Untuk hosting dan domain, ketentuannya sangat fleksibel: Anda (klien) dapat menyewanya secara mandiri dan saya bantu setup konfigurasinya secara gratis, atau didelegasikan langsung lewat saya agar pengelolaannya lebih praktis. Opsi ini dapat kita diskusikan lebih lanjut saat konsultasi.",
   },
   {
     question: "Bagaimana cara melakukan pembayaran?",
