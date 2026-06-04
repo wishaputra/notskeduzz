@@ -18,7 +18,7 @@ export const Footer = () => {
               className="flex items-center gap-2 font-mono text-xl font-bold text-gradient tracking-tight"
             >
               <MessageSquareCode className="text-primary w-6 h-6" />
-              <span>{"<NotSkeduzz />"}</span>
+              <span>{"<WishDev />"}</span>
             </a>
             <p className="text-muted-foreground text-xs md:text-sm leading-relaxed max-w-sm">
               Jasa pembuatan website & aplikasi kustom berkualitas premium. Berfokus menghadirkan platform digital berkinerja tinggi, aman, dan memikat untuk kesuksesan bisnis Anda.
@@ -47,14 +47,14 @@ export const Footer = () => {
             <div className="space-y-3 text-xs text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail size={14} className="text-primary shrink-0" />
-                <a href="mailto:support@notskeduzz.com" className="hover:text-primary transition-colors">
-                  support@notskeduzz.com
+                <a href="mailto:support@wishdev.online" className="hover:text-primary transition-colors">
+                  support@wishdev.online
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-primary shrink-0" />
-                <a href="https://wa.me/6285123456789" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                  +62 851-2345-6789
+                <a href="https://wa.me/6285117279141" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  +62 851-1727-9141
                 </a>
               </div>
               <div className="flex items-center gap-2 pt-2">
@@ -77,7 +77,7 @@ export const Footer = () => {
 
         {/* Bottom copyright */}
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] md:text-xs text-muted-foreground font-mono">
-          <p>&copy; {currentYear} NotSkeduzz. All rights reserved.</p>
+          <p>&copy; {currentYear} WishDev. All rights reserved.</p>
           <p>
             Designed & Developed in Indonesia
           </p>

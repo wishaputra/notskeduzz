@@ -36,7 +36,7 @@ export const Navbar = () => {
             className="flex items-center gap-2 font-mono text-xl font-bold text-gradient tracking-tight"
           >
             <MessageSquareCode className="text-primary w-6 h-6 animate-pulse" />
-            <span>{"<NotSkeduzz />"}</span>
+            <span>{"<WishDev />"}</span>
           </a>
 
           {/* Desktop Navigation */}
