@@ -1,4 +1,4 @@
-import { ArrowDown, Code, Sparkles, Smartphone, ShieldCheck } from "lucide-react";
+import { ArrowDown, Code, Smartphone, ShieldCheck } from "lucide-react";
 import furekushiImage from "../assets/furekushi.png";
 import simapekaImage from "../assets/simapeka.png";
 import kedaisyncImage from "../assets/kedaisync.png";
@@ -21,11 +21,7 @@ export const HeroSection = () => {
           
           {/* Left Text Column */}
           <div className="lg:col-span-7 space-y-6 text-left">
-            {/* Greeting / Sub-headline */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs md:text-sm font-semibold mb-2 animate-fade-in-down opacity-0" style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}>
-              <Sparkles size={14} className="animate-spin-slow" />
-              <span>Jasa Web & Aplikasi Kustom</span>
-            </div>
+
 
             {/* Headline */}
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight animate-fade-in-up opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
