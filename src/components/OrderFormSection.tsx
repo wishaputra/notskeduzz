@@ -7,8 +7,7 @@ interface OrderFormSectionProps {
   setSelectedPackage: (packageName: string) => void;
 }
 
-// Target WhatsApp business number (e.g. +62 851-2345-6789).
-// The user can edit this number in their environment variables or directly in code.
+// Target WhatsApp business number.
 const WHATSAPP_NUMBER = "6285117279141";
 
 export const OrderFormSection = ({
@@ -72,36 +71,38 @@ Terima kasih.`;
             {/* Left Info Column */}
             <div className="lg:col-span-5 space-y-6">
               <div>
-                <p className="font-mono text-primary text-sm mb-3">05. Hubungi Saya</p>
+                <p className="text-primary text-xs md:text-sm font-bold tracking-wider uppercase mb-3">
+                  05. Hubungi Saya
+                </p>
                 <h2 className="text-3xl md:text-4xl font-extrabold text-foreground tracking-tight">
                   Konsultasikan Proyek Anda
                 </h2>
-                <p className="text-muted-foreground mt-4 text-sm leading-relaxed">
-                  Isi formulir singkat di samping. Saya akan langsung mengarahkan Anda ke WhatsApp untuk berdiskusi lebih lanjut.
+                <p className="text-muted-foreground mt-4 text-xs md:text-sm leading-relaxed">
+                  Isi formulir singkat di samping. Saya akan langsung mengarahkan Anda ke WhatsApp untuk berdiskusi lebih lanjut secara mudah dan cepat.
                 </p>
               </div>
 
               {/* Guarantees Box */}
-              <div className="p-6 rounded-xl bg-background border border-border/60 space-y-4">
-                <h4 className="text-sm font-bold text-foreground font-mono flex items-center gap-2">
-                  <Sparkles size={16} className="text-primary" />
+              <div className="p-6 rounded-xl bg-background border border-border/60 space-y-4 shadow-md">
+                <h4 className="text-sm font-bold text-foreground flex items-center gap-2">
+                  <Sparkles size={16} className="text-primary animate-pulse" />
                   Jaminan Proses Layanan
                 </h4>
 
                 <div className="space-y-3 text-xs text-muted-foreground">
-                  <div className="flex gap-2">
+                  <div className="flex gap-2.5">
                     <ShieldCheck className="text-primary w-4 h-4 shrink-0 mt-0.5" />
                     <p>
-                      <strong>Tanpa Denda Revisi:</strong> Berkomitmen untuk menyesuaikan desain sesuai kuota revisi paket tanpa biaya siluman.
+                      <strong>Tanpa Denda Revisi:</strong> Berkomitmen untuk menyesuaikan desain sesuai kuota revisi paket tanpa biaya tersembunyi.
                     </p>
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2.5">
                     <ShieldCheck className="text-primary w-4 h-4 shrink-0 mt-0.5" />
                     <p>
                       <strong>Kontrak & Transparansi:</strong> Ketentuan pengerjaan jelas di awal dan update progress pengerjaan dilakukan berkala.
                     </p>
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2.5">
                     <ShieldCheck className="text-primary w-4 h-4 shrink-0 mt-0.5" />
                     <p>
                       <strong>Serah Terima Aset Penuh:</strong> Akun hosting, domain, dan kode sumber proyek diserahkan 100% milik Anda.
@@ -127,7 +128,7 @@ Terima kasih.`;
                 <form onSubmit={handleSubmit} className="space-y-5">
                   {/* Nama */}
                   <div>
-                    <label htmlFor="name" className="block text-xs font-semibold text-muted-foreground mb-2 font-mono">
+                    <label htmlFor="name" className="block text-[10px] font-bold text-muted-foreground mb-2 uppercase tracking-wider">
                       NAMA LENGKAP *
                     </label>
                     <input
@@ -138,13 +139,13 @@ Terima kasih.`;
                       placeholder="Masukkan nama Anda..."
                       value={formData.name}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all font-sans"
+                      className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all"
                     />
                   </div>
 
                   {/* Nama Bisnis */}
                   <div>
-                    <label htmlFor="businessName" className="block text-xs font-semibold text-muted-foreground mb-2 font-mono">
+                    <label htmlFor="businessName" className="block text-[10px] font-bold text-muted-foreground mb-2 uppercase tracking-wider">
                       NAMA BISNIS / PERUSAHAAN (OPSIONAL)
                     </label>
                     <input
@@ -154,14 +155,14 @@ Terima kasih.`;
                       placeholder="Contoh: Toko Ritel Maju Jaya, Coffee Shop..."
                       value={formData.businessName}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all font-sans"
+                      className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all"
                     />
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-5">
                     {/* Telepon */}
                     <div>
-                      <label htmlFor="phone" className="block text-xs font-semibold text-muted-foreground mb-2 font-mono">
+                      <label htmlFor="phone" className="block text-[10px] font-bold text-muted-foreground mb-2 uppercase tracking-wider">
                         NOMOR HP / WHATSAPP *
                       </label>
                       <input
@@ -172,20 +173,20 @@ Terima kasih.`;
                         placeholder="Contoh: 081234567890"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all font-sans"
+                        className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all"
                       />
                     </div>
 
                     {/* Paket */}
                     <div>
-                      <label htmlFor="package" className="block text-xs font-semibold text-muted-foreground mb-2 font-mono">
+                      <label htmlFor="package" className="block text-[10px] font-bold text-muted-foreground mb-2 uppercase tracking-wider">
                         LAYANAN / PAKET *
                       </label>
                       <select
                         id="package"
                         value={selectedPackage}
                         onChange={(e) => setSelectedPackage(e.target.value)}
-                        className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all font-sans appearance-none cursor-pointer"
+                        className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all appearance-none cursor-pointer"
                       >
                         {packages.map((pkg) => (
                           <option key={pkg.name} value={pkg.name} className="bg-card text-foreground">
@@ -198,7 +199,7 @@ Terima kasih.`;
 
                   {/* Kebutuhan / Catatan */}
                   <div>
-                    <label htmlFor="details" className="block text-xs font-semibold text-muted-foreground mb-2 font-mono">
+                    <label htmlFor="details" className="block text-[10px] font-bold text-muted-foreground mb-2 uppercase tracking-wider">
                       DETAIL KEBUTUHAN / REQUEST KHUSUS
                     </label>
                     <textarea
@@ -208,7 +209,7 @@ Terima kasih.`;
                       placeholder="Jelaskan kebutuhan website atau aplikasi Anda (fitur kustom, alur sistem, referensi, dll.)..."
                       value={formData.details}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all font-sans resize-none"
+                      className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border text-foreground text-sm focus:outline-none focus:border-primary/80 focus:ring-1 focus:ring-primary/80 transition-all resize-none"
                     />
                   </div>
 
@@ -216,14 +217,14 @@ Terima kasih.`;
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full py-3.5 bg-gradient-primary text-primary-foreground font-bold rounded-lg hover:opacity-90 transition-all duration-300 flex items-center justify-center gap-2 glow-primary disabled:opacity-50"
+                    className="w-full py-3.5 bg-gradient-primary text-primary-foreground font-bold rounded-lg hover:opacity-90 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg glow-primary disabled:opacity-50"
                   >
                     <Send size={16} />
                     {isSubmitting ? "Menghubungkan..." : "Kirim Form & Lanjut WhatsApp"}
                   </button>
 
                   {redirected && (
-                    <p className="text-center text-xs text-primary font-mono animate-pulse mt-2">
+                    <p className="text-center text-xs text-primary font-semibold animate-pulse mt-2">
                       Membuka WhatsApp... Silakan periksa tab baru browser Anda.
                     </p>
                   )}

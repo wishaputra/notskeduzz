@@ -110,13 +110,17 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 md:mb-24">
-            <p className="font-mono text-primary text-sm mb-3">04. Paket Harga</p>
+            <p className="text-primary text-xs md:text-sm font-bold tracking-wider uppercase mb-3">
+              04. Paket Harga
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-foreground tracking-tight">
               Investasi Website & Aplikasi Anda
             </h2>
-            <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
-              Pilihan harga transparan sesuai kebutuhan proyek Anda. Tanpa biaya tersembunyi.
-              Catatan: Harga belum termasuk biaya hosting & domain. Ketentuan hosting fleksibel (bisa disewa mandiri oleh Anda atau difasilitasi lewat saya).
+            <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base leading-relaxed">
+              Pilihan harga transparan sesuai kebutuhan proyek Anda. Tanpa biaya tersembunyi. <br />
+              <span className="text-primary font-semibold text-xs md:text-sm mt-1 inline-block">
+                Catatan: Harga belum termasuk biaya hosting & domain. Ketentuan hosting fleksibel (bisa disewa mandiri oleh Anda atau difasilitasi lewat saya).
+              </span>
             </p>
           </div>
 
@@ -125,14 +129,15 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
             {packages.map((pkg) => (
               <div
                 key={pkg.name}
-                className={`rounded-xl border transition-all duration-300 flex flex-col justify-between relative ${pkg.popular
-                  ? "border-primary bg-gradient-card glow-subtle scale-[1.02] z-10"
-                  : "border-border bg-gradient-card hover:border-primary/30"
-                  } p-6`}
+                className={`rounded-xl border transition-all duration-300 flex flex-col justify-between relative ${
+                  pkg.popular
+                    ? "border-primary bg-gradient-card shadow-[0_10px_35px_rgba(220,38,38,0.15)] scale-[1.02] z-10"
+                    : "border-border bg-gradient-card hover:border-primary/30 hover:glow-subtle hover:-translate-y-1"
+                } p-6`}
               >
                 {/* Popular Badge */}
                 {pkg.popular && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-primary text-primary-foreground text-[10px] font-bold font-mono flex items-center gap-1 uppercase tracking-wider">
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary text-primary-foreground text-[10px] font-bold flex items-center gap-1 uppercase tracking-wider shadow-md">
                     <Flame size={12} className="fill-current" />
                     Terpopuler
                   </div>
@@ -148,7 +153,7 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
                   {/* Pricing */}
                   <div className="mb-6">
                     {pkg.originalPrice && (
-                      <span className="text-xs text-muted-foreground/60 line-through mr-2 font-mono">
+                      <span className="text-xs text-muted-foreground/60 line-through mr-2 font-medium">
                         {pkg.originalPrice}
                       </span>
                     )}
@@ -163,7 +168,7 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
                   {/* Features List */}
                   <ul className="space-y-3 mb-8">
                     {pkg.features.map((feature) => (
-                      <li key={feature} className="flex items-start gap-2.5 text-xs text-muted-foreground">
+                      <li key={feature} className="flex items-start gap-2.5 text-xs text-muted-foreground leading-normal">
                         <Check className="text-primary w-4 h-4 shrink-0 mt-0.5" />
                         <span>{feature}</span>
                       </li>
@@ -174,10 +179,11 @@ export const PricingSection = ({ onSelectPackage }: PricingSectionProps) => {
                 {/* CTA Button */}
                 <button
                   onClick={() => handleSelect(pkg.name)}
-                  className={`w-full py-2.5 px-4 rounded-lg font-semibold text-xs transition-all duration-300 flex items-center justify-center gap-2 ${pkg.popular
-                    ? "bg-gradient-primary text-primary-foreground hover:opacity-90 hover:glow-primary"
-                    : "bg-secondary hover:bg-secondary/80 text-foreground border border-border/80 hover:border-primary/20"
-                    }`}
+                  className={`w-full py-2.5 px-4 rounded-lg font-bold text-xs transition-all duration-300 flex items-center justify-center gap-2 ${
+                    pkg.popular
+                      ? "bg-gradient-primary text-primary-foreground hover:opacity-90 shadow-md glow-subtle hover:glow-primary"
+                      : "bg-secondary hover:bg-secondary/80 text-foreground border border-border/80 hover:border-primary/20"
+                  }`}
                 >
                   <MessageSquare size={14} />
                   {pkg.ctaText}

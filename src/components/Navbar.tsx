@@ -34,10 +34,10 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <a
             href="#home"
-            className="flex items-center gap-2 font-mono text-xl font-bold text-gradient tracking-tight"
+            className="flex items-center gap-2 text-xl font-bold text-gradient tracking-tight"
           >
             <MessageSquareCode className="text-primary w-6 h-6 animate-pulse" />
-            <span>{"<WishDev />"}</span>
+            <span>WishDev</span>
           </a>
 
           {/* Desktop Navigation */}

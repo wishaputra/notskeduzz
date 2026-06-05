@@ -15,10 +15,10 @@ export const Footer = () => {
           <div className="md:col-span-5 space-y-4">
             <a
               href="#home"
-              className="flex items-center gap-2 font-mono text-xl font-bold text-gradient tracking-tight"
+              className="flex items-center gap-2 text-xl font-bold text-gradient tracking-tight"
             >
               <MessageSquareCode className="text-primary w-6 h-6" />
-              <span>{"<WishDev />"}</span>
+              <span>WishDev</span>
             </a>
             <p className="text-muted-foreground text-xs md:text-sm leading-relaxed max-w-sm">
               Jasa pembuatan website & aplikasi kustom berkualitas premium. Berfokus menghadirkan platform digital berkinerja tinggi, aman, dan memikat untuk kesuksesan bisnis Anda.
@@ -27,7 +27,7 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div className="md:col-span-3 space-y-4">
-            <h4 className="text-xs font-bold text-foreground font-mono uppercase tracking-wider">
+            <h4 className="text-xs font-bold text-foreground uppercase tracking-wider">
               Tautan Navigasi
             </h4>
             <div className="flex flex-col gap-2.5 text-xs text-muted-foreground">
@@ -42,7 +42,7 @@ export const Footer = () => {
 
           {/* Contacts & Socials */}
           <div className="md:col-span-4 space-y-4">
-            <h4 className="text-xs font-bold text-foreground font-mono uppercase tracking-wider">
+            <h4 className="text-xs font-bold text-foreground uppercase tracking-wider">
               Kontak Hubung
             </h4>
             <div className="space-y-3 text-xs text-muted-foreground">
@@ -59,7 +59,7 @@ export const Footer = () => {
                 </a>
               </div>
               <div className="flex items-center gap-2 pt-2">
-                <span className="font-mono text-[10px]">Reference:</span>
+                <span className="text-[10px] text-muted-foreground/80">Reference:</span>
                 <a
                   href="https://github.com/wishaputra"
                   target="_blank"
@@ -77,7 +77,7 @@ export const Footer = () => {
         <div className="w-full h-px bg-border/50 mb-8" />
 
         {/* Bottom copyright */}
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] md:text-xs text-muted-foreground font-mono">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] md:text-xs text-muted-foreground">
           <p>&copy; {currentYear} WishDev. All rights reserved.</p>
           <p>
             Designed & Developed in Indonesia

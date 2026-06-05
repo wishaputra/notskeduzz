@@ -29,7 +29,7 @@ const features = [
   {
     icon: HeartHandshake,
     title: "Support & Garansi",
-    description: "Garansi perbaikan bug gratis selama 3 bulan pertama setelah peluncuran, ditambah panduan lengkap cara mengelola konten secara mandiri.",
+    description: "Garansi perbaikan bug gratis selama 1 hingga 3 bulan penuh sejak website atau aplikasi dirilis online (tergantung paket). Jika terjadi kendala sistem, perbaikan dilakukan tanpa dipungut biaya sepeser pun.",
   },
 ];
 
@@ -43,11 +43,13 @@ export const FeaturesSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 md:mb-24">
-            <p className="font-mono text-primary text-sm mb-3">02. Kelebihan Saya</p>
+            <p className="text-primary text-xs md:text-sm font-bold tracking-wider uppercase mb-3">
+              02. Kelebihan Saya
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-foreground tracking-tight">
               Mengapa Memilih Jasa Saya?
             </h2>
-            <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base">
+            <p className="text-muted-foreground mt-4 max-w-xl mx-auto text-sm md:text-base leading-relaxed">
               Saya tidak sekadar membuat website atau aplikasi asal jadi. Saya fokus pada kualitas performa kode, kecepatan akses, dan hasil konversi riil untuk bisnis Anda.
             </p>
           </div>
@@ -59,15 +61,15 @@ export const FeaturesSection = () => {
               return (
                 <div
                   key={feature.title}
-                  className="p-6 md:p-8 rounded-xl bg-background border border-border/80 hover:border-primary/30 transition-all duration-300 group"
+                  className="p-6 md:p-8 rounded-xl bg-background border border-border/80 hover:border-primary/30 hover:glow-subtle hover:-translate-y-1 transition-all duration-300 group"
                 >
-                  <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-primary/5 border border-primary/20 text-primary mb-6 group-hover:bg-primary group-hover:text-primary-foreground group-hover:glow-subtle transition-all duration-300">
+                  <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-primary/5 border border-primary/20 text-primary mb-6 group-hover:bg-primary group-hover:text-primary-foreground group-hover:glow-subtle transition-all duration-300 animate-float">
                     <Icon size={22} />
                   </div>
                   <h3 className="text-lg md:text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                     {feature.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-muted-foreground text-xs md:text-sm leading-relaxed">
                     {feature.description}
                   </p>
                 </div>
